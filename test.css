@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #fafafa
+}
+
+.container {
+	text-align: center;
+}
+
+.container .header {
+	width: 100%;
+	font-family: sans-serif;
+	padding: 20px;
+	background: white;
+	position: fixed;
+	box-shadow: 0 5px 15px 0 #00000010;
+	z-index: 100;
+}
+
+.pad {
+	min-width: 350px;
+	width: 80vw;
+	height: 400px;
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	background: white;
+	box-shadow: 0 5px 20px 0px #00000010;
+	position: relative;
+	top: 80px;
+	z-index: 1;
+}
